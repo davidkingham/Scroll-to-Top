@@ -2,6 +2,7 @@
   "name": "Scroll to Top",
   "about_url": "https://github.com/davidkingham/Scroll-to-Top/",
   "license_url": "https://github.com/davidkingham/Scroll-to-Top/blob/master/LICENSE",
+  "component": true,
    "assets": {
         "chevron-up": "assets/chevron-up.svg"
    }
