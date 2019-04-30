@@ -3,20 +3,6 @@
   "about_url": "https://github.com/davidkingham/Scroll-to-Top/",
   "license_url": "https://github.com/davidkingham/Scroll-to-Top/blob/master/LICENSE",
    "assets": {
-        "asset-variable": "assets/background.svg"
-   },
-   "color_schemes": {
-       "color scheme name": {
-          "primary": "000000",
-          "secondary": "000000",
-          "tertiary": "000000",
-          "quaternary": "000000",
-          "header_background": "000000",
-          "header_primary": "000000",
-          "highlight": "000000",
-          "danger": "000000",
-          "success": "000000",
-          "love": "000000"
-        }
-    }
+        "chevron-up": "assets/chevron-up.svg"
+   }
 }
