@@ -1,0 +1,12 @@
+.move-up {
+    bottom: 20px;
+    left: 30px;
+}
+.move-up button {
+    line-height: 2.4;
+    border-radius: 3px;
+}
+.move-up button:active:hover {
+    padding-right:4px !important;
+    margin-right:2px;
+}
