@@ -3,9 +3,10 @@
     left: 30px;
 }
 .move-up button {
-    line-height: 2.1;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 .move-up button:active:hover {
     padding-right:4px !important;
