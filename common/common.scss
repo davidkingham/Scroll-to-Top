@@ -2,7 +2,9 @@
     position: fixed;
     z-index:399;
     display: none;
+    color: $secondary;
 }
 .move-up button {
     border:none;
+    background: $quaternary;
 }
