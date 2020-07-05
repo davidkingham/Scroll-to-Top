@@ -10,7 +10,6 @@
         },
         
         click() {
-            console.log(api._lookupContainer("controller:topic"));
             api._lookupContainer("controller:topic").send("jumpTop")
             $('body,html').animate({
                 scrollTop: 0
