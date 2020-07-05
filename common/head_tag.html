@@ -1,0 +1,23 @@
+<script type="text/discourse-plugin" version="0.8">
+    const h = require("virtual-dom").h;
+    
+    const iconNode = require("discourse-common/lib/icon-library").iconNode;
+    api.createWidget("scroll-top-button", {
+        tagName: "div.scroll-top-button",
+        
+        html(attrs) {
+            return h("div.icon", iconNode("chevron-up"));
+        },
+        
+        click() {
+            api._lookupContainer("controller:topic").send("jumpTop")
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+        }
+    });
+</script>
+
+<script type="text/x-handlebars" data-template-name="/connectors/above-footer/scroll-top">
+    {{mount-widget widget="scroll-top-button"}}
+</script>
