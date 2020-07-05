@@ -10,6 +10,16 @@ $('.move-up').fadeOut();
 });
 });</script>
 
+<script type="text/discourse-plugin" version="0.8">
+$('.move-up button').click(function(){
+api._lookupContainer("controller:topic").send("jumpTop");
+$('body,html').animate({
+scrollTop: 0
+}, 800);
+return false;
+});
+</script>
+
 <form class="move-up" action="#up">
 <button>
 <svg class="fa d-icon d-icon-chevron-up svg-icon svg-node" aria-hidden="true"><use xlink:href="#chevron-up"></use></svg>
