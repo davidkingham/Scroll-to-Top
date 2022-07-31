@@ -1,0 +1,23 @@
+<script>$(document).ready(function($){
+$(function(){
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100){
+$('.move-up').fadeIn();
+} else {
+$('.move-up').fadeOut();
+}
+});
+$('.move-up button').click(function(){
+$('body,html').animate({
+scrollTop: 0
+}, 800);
+return false;
+});
+});
+});</script>
+
+<form class="move-up" action="#up">
+<button>
+<svg class="fa d-icon d-icon-chevron-up svg-icon svg-node" aria-hidden="true"><use xlink:href="#chevron-up"></use></svg>
+</button>
+</form>
